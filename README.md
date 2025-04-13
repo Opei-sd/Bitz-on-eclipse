@@ -44,4 +44,26 @@ solana-keygen new
 
 (take note of your public key and secret phrase (displayed after generation))
 
+5. Set the rpc to Eclipse mainnet:
+
+solana config set --url https://eclipse.helius-rpc.com
+
+(using helius rpc since it works flawlessly)
+
+6. Install Bitz using Cargo
+
+cargo install bitz
+
+(this will take sometime so wait until it finishes)
+
+7. Exporting wallet to backpack
+
+cat ~/.config/solana/id.json
+
+(copy the numbers including [] and open backpack-> import->privatekey->paste to import)
+
+now send 0.0055 eth to that wallet address which will be used as gas fee for mining $BITZ token.
+
+
+
 
