@@ -64,6 +64,24 @@ cat ~/.config/solana/id.json
 
 now send 0.0055 eth to that wallet address which will be used as gas fee for mining $BITZ token.
 
+8. Mining $BITZ
+
+screen -S eclipse                (to open screen)
+bitz collect                               (to start mining)
+
+
+
+
+That's all your computer started to mine $Bitz tokenz
+
+ Basic Commands
+Collect bitz: bitz collect
+Claim your bitz: bitz claim
+Check your balance: bitz account
+Look up all commands: bitz -h or bitz --help
+
+token CA : 64mggk2nXg6vHC1qCdsZdEFzd5QGN4id54Vbho4PswCF
+
 
 
 
