@@ -23,3 +23,25 @@ now search "ubuntu" in search bar and run it as administrator.
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 wait for few mins
+
+3. Install Solana CLI
+
+curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
+
+this will take sometime so don't panic and wait until it finish.
+
+after successful installation you'll get output like this -
+Installed Versions:
+Rust: rustc 1.85.0 (4d91de4e4 2025-02-17) 
+Solana CLI: solana-cli 2.1.14 (src:3ad46824; feat:3271415109, client:Agave) 
+Anchor CLI: anchor-cli 0.30.1 
+Node.js: v23.8.0 
+Yarn: 1.22.1
+
+4. Create a local keypair/Wallet
+
+solana-keygen new
+
+(take note of your public key and secret phrase (displayed after generation))
+
+
